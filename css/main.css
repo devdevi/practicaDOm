@@ -1,0 +1,87 @@
+*{ 
+	/*outline: 1px solid red;*/
+	box-sizing: border-box;
+}
+body{
+	margin: 0 auto;
+	background:#F8F9F9;
+}
+.container{
+	margin-top: 20px;
+}
+img{
+
+ 	width: 400px;
+}
+.deity{
+	margin: 5px;
+	border: 50px  solid white;
+	
+}
+.containercenter {
+	outline: 2px solid #FDFEFE;
+	width: 0 auto;
+
+}
+.center{
+	margin:0 auto;
+	text-align: center;
+	width: auto;
+}
+textarea{
+	margin:10px;
+	width: 400px;
+	text-align: left;	
+}
+button{
+	background: blue;
+	color:white;
+	padding: 10px;
+	border:0;
+	border-radius: 10px;
+	margin:10px;
+}
+button:hover{
+	background: black;
+	color:white;
+	padding: 10px;
+	border:0;
+	transition: alelse 2px;
+	border-radius: 10px;
+	margin:10px;
+}
+
+#cont{
+	margin:0 auto;
+	align-content: center;
+	text-align: left;
+	overflow: hidden;
+	
+}
+#cont div{
+	padding: 1em .5em;
+	margin-bottom: 2em;
+	outline: .1em solid #E5E3F2;
+	background:white;
+}
+.heart, .trash{
+	margin:1em;
+	float: right;
+}
+.trash:hover{
+	color:#1DA1F2;
+	cursor:pointer;
+}
+.red{
+	color: pink;
+	cursor: pointer;
+}
+p{
+	display: inline-block;
+	margin-left: .5em;
+	width: 400px;
+}
+.strike-out{
+	text-align: line-through;
+	color:#1DA1F2;
+}
