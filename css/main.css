@@ -1,6 +1,6 @@
 *{ 
 	/*outline: 1px solid red;*/
-	box-sizing: border-box;
+	/*box-sizing: border-box;*/
 }
 body{
 	margin: 0 auto;
@@ -11,11 +11,12 @@ body{
 }
 img{
 
- 	width: 400px;
+ 	width: 300px;
 }
 .deity{
-	margin: 5px;
-	border: 50px  solid white;
+
+	margin: 0 5px 0 5px;
+	border: 10px  solid white;
 	
 }
 .containercenter {
@@ -24,13 +25,13 @@ img{
 
 }
 .center{
-	margin:0 auto;
+	
 	text-align: center;
-	width: auto;
 }
 textarea{
 	margin:10px;
-	width: 400px;
+	width: 300px;
+	height: 100px;
 	text-align: left;	
 }
 button{
@@ -41,14 +42,13 @@ button{
 	border-radius: 10px;
 	margin:10px;
 }
-button:hover{
-	background: black;
-	color:white;
+button:active{background: blue;
+	color:#000;
 	padding: 10px;
 	border:0;
-	transition: alelse 2px;
 	border-radius: 10px;
 	margin:10px;
+
 }
 
 #cont{

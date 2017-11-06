@@ -3,6 +3,12 @@ function add(){
 	
 	var comments = document.getElementById('comment').value;
 	/*creo una variable , rescato el comentario y lo agrego a valor*/
+	
+	/*validar espacio vacio*/
+	if (comments.length == 0){
+		alert('Comentario Vacio \n ingresa un comentario Valido.')
+	}else{
+		
 	/*limpio placeHOlder*/
 	document.getElementById('comment').value="";
 
@@ -44,7 +50,7 @@ function add(){
 
 	cont.appendChild(newComments);
 
-	/*vamos a hacer un esuchador CON ADD EVENT LISTENER*/
+	/*vamos a hacer un esuchador CON ADD EVENT LISTENER*//*un EVENTO*/
 	check.addEventListener('click',function(){
 		paragraph.classList.toggle('strike-out')
 
@@ -59,10 +65,19 @@ function add(){
 	heart.addEventListener('click',function(){
 		heart.classList.toggle('red');
 	})
+
+
+	/*validar espacio vacio*/
+
 	 /*check*/
 	 check.addEventListener('click',function(){
 	 	if (check.checked){
-	 		alert('SEGURA QUIERES ELIMINAR')
-	        }
+	 		return true;
+	        
+	} else{
+
+	 	return false;
+	 }
 	})
+	}
 }
